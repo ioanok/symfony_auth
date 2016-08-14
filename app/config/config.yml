@@ -66,3 +66,13 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# OAuth0
+hwi_oauth:
+    firewall_name: secured_area
+    resource_owners:
+        auth0:
+            type:                auth0
+            base_url:            https://ioanok.eu.auth0.com
+            client_id:           vCuNEidJg6PHMmQynnlHk8XdYg6sgwly
+            client_secret:       XA-oJfTm_HbDsyyhVyHN_UONqMkUEf7EpxydEXyERLYN7-utAc_dLLSlShmAJhoh
